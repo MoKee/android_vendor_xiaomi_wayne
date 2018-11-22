@@ -1147,4 +1147,5 @@ PRODUCT_PACKAGES += \
     imssettings \
     PowerOffAlarm \
     TimeService \
-    qcrilhook
+    qcrilhook \
+    chargeonlymode
