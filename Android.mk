@@ -85,18 +85,6 @@ LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libgpustats
-LOCAL_MODULE_OWNER := xiaomi
-LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libgpustats.so
-LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libgpustats.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := com.quicinc.cne.api@1.0
 LOCAL_MODULE_OWNER := xiaomi
 LOCAL_SRC_FILES := proprietary/vendor/lib64/com.quicinc.cne.api@1.0.so
