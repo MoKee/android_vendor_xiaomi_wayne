@@ -1291,11 +1291,11 @@ PRODUCT_PACKAGES += \
     CNEService \
     dpmserviceapp \
     qcrilmsgtunnel \
+    ims \
+    imssettings \
     PowerOffAlarm \
     SVIService \
     TimeService \
     colorservice \
-    ims \
-    imssettings \
     com.qti.snapdragon.sdk.display \
     qcrilhook
