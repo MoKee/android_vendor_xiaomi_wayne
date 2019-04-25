@@ -89,158 +89,195 @@ LensInfo : Information of the lens present in the module.
 <CameraConfigurationRoot>
   <CameraModuleConfig>
     <CameraId>0</CameraId>
-    <SensorName>whyred_s5k5e8_ofilm_i</SensorName>
-    <EepromName>whyred_s5k5e8_ofilm_i</EepromName>
-    <ChromatixName_china>whyred_s5k5e8_ofilm_cn_i_chromatix</ChromatixName_china>
-    <ChromatixName>whyred_s5k5e8_ofilm_global_i_chromatix</ChromatixName>
+    <SensorName>wayne_imx376_sunny_back_i</SensorName> 
+    <ActuatorName>wayne_imx376_sunny_back_i_dw9763</ActuatorName>
+    <EepromName>wayne_imx376_sunny_back_i</EepromName>
+    <FlashName>pmic</FlashName>
+    <ChromatixName_china>wayne_imx376_sunny_cn_back_i_chromatix</ChromatixName_china>
+    <ChromatixName>wayne_imx376_sunny_india_back_i_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>BACK_AUX</Position>
+    <!-- <Position>BACK_AUX</Position> -->
     <MountAngle>90</MountAngle>
     <CSIInfo>
-      <CSIDCore>1</CSIDCore>
-      <LaneMask>0x7</LaneMask>
+      <CSIDCore>0</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
       <LaneAssign>0x4320</LaneAssign>
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>1.97</FocalLength>
-      <FNumber>2.0</FNumber>
-      <TotalFocusDistance>1.9</TotalFocusDistance>
-      <HorizontalViewAngle>84.0</HorizontalViewAngle>
-      <VerticalViewAngle>63.0</VerticalViewAngle>
+      <FocalLength>4.07</FocalLength>
+      <FNumber>1.75</FNumber>
+      <TotalFocusDistance>4.0</TotalFocusDistance>
+      <HorizontalViewAngle>76.9</HorizontalViewAngle>
+      <VerticalViewAngle>57.6</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
   <CameraModuleConfig>
     <CameraId>0</CameraId>
-    <SensorName>whyred_s5k5e8_qtech_ii</SensorName>
-    <EepromName>whyred_s5k5e8_qtech_ii</EepromName>
-    <ChromatixName_china>whyred_s5k5e8_qtech_cn_ii_chromatix</ChromatixName_china>
-    <ChromatixName>whyred_s5k5e8_qtech_global_ii_chromatix</ChromatixName>
+    <SensorName>wayne_imx376_sunny_back_iii</SensorName> 
+    <ActuatorName>wayne_imx376_sunny_back_i_dw9763</ActuatorName>
+    <EepromName>wayne_imx376_sunny_back_iii</EepromName>
+    <FlashName>pmic</FlashName>
+    <ChromatixName_china>wayne_imx376_sunny_cn_back_iii_chromatix</ChromatixName_china>
+    <ChromatixName>wayne_imx376_sunny_india_back_iii_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>BACK_AUX</Position>
+    <!-- <Position>BACK_AUX</Position> -->
+    <MountAngle>90</MountAngle>
+    <CSIInfo>
+      <CSIDCore>0</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>4.07</FocalLength>
+      <FNumber>1.75</FNumber>
+      <TotalFocusDistance>4.0</TotalFocusDistance>
+      <HorizontalViewAngle>76.9</HorizontalViewAngle>
+      <VerticalViewAngle>57.6</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+  <CameraModuleConfig>
+    <CameraId>0</CameraId>
+    <SensorName>wayne_imx376_ofilm_back_ii</SensorName> 
+    <ActuatorName>wayne_imx376_ofilm_back_ii_dw9763</ActuatorName>
+    <EepromName>wayne_imx376_ofilm_back_ii</EepromName>
+    <FlashName>pmic</FlashName>
+    <ChromatixName_china>wayne_imx376_ofilm_cn_back_ii_chromatix</ChromatixName_china>
+    <ChromatixName>wayne_imx376_ofilm_india_back_ii_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>BACK_AUX</Position>
+    <!-- <Position>BACK_AUX</Position> -->
+    <MountAngle>90</MountAngle>
+    <CSIInfo>
+      <CSIDCore>0</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>4.07</FocalLength>
+      <FNumber>1.75</FNumber>
+      <TotalFocusDistance>4.0</TotalFocusDistance>
+      <HorizontalViewAngle>76.9</HorizontalViewAngle>
+      <VerticalViewAngle>57.6</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+  <CameraModuleConfig>
+    <CameraId>1</CameraId>
+    <SensorName>wayne_imx486_sunny_i</SensorName>
+    <ActuatorName>wayne_imx486_sunny_i_dw9763</ActuatorName> 
+    <EepromName>wayne_imx486_sunny_i</EepromName>
+    <FlashName>pmic</FlashName>
+    <ChromatixName_china>wayne_imx486_sunny_cn_i_chromatix</ChromatixName_china>
+    <ChromatixName>wayne_imx486_sunny_india_i_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>BACK</Position>
     <MountAngle>90</MountAngle>
     <CSIInfo>
       <CSIDCore>1</CSIDCore>
-      <LaneMask>0x7</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>1.97</FocalLength>
-      <FNumber>2.0</FNumber>
-      <TotalFocusDistance>1.9</TotalFocusDistance>
-      <HorizontalViewAngle>84.0</HorizontalViewAngle>
-      <VerticalViewAngle>63.0</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
-    </LensInfo>
-  </CameraModuleConfig>
-   <CameraModuleConfig>
-    <CameraId>1</CameraId>
-    <SensorName>whyred_imx486_ofilm_global_i</SensorName>
-   <ActuatorName>whyred_imx486_ofilm_global_i_dw9714v</ActuatorName>
-   <EepromName>whyred_imx486_ofilm_global_i</EepromName>
-    <FlashName>pmic</FlashName>
-    <ChromatixName>whyred_imx486_ofilm_global_i_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK</Position>
-    <MountAngle>90</MountAngle>
-    <CSIInfo>
-      <CSIDCore>0</CSIDCore>
       <LaneMask>0x1F</LaneMask>
       <LaneAssign>0x4320</LaneAssign>
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>3.81</FocalLength>
-      <FNumber>2.2</FNumber>
-      <TotalFocusDistance>2.4</TotalFocusDistance>
-      <HorizontalViewAngle>78</HorizontalViewAngle>
-      <VerticalViewAngle>60.0</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
-    </LensInfo>
-  </CameraModuleConfig>
-    <CameraModuleConfig>
-    <CameraId>1</CameraId>
-    <SensorName>whyred_imx486_qtech_global_ii</SensorName>
-    <ActuatorName>whyred_imx486_qtech_global_ii_dw9714v</ActuatorName>
-    <EepromName>whyred_imx486_qtech_global_ii</EepromName>
-    <FlashName>pmic</FlashName>
-    <ChromatixName>whyred_imx486_qtech_global_ii_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK</Position>
-    <MountAngle>90</MountAngle>
-    <CSIInfo>
-      <CSIDCore>0</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>3.81</FocalLength>
-      <FNumber>2.2</FNumber>
-      <TotalFocusDistance>2.4</TotalFocusDistance>
-      <HorizontalViewAngle>78</HorizontalViewAngle>
-      <VerticalViewAngle>60.0</VerticalViewAngle>
+      <FocalLength>4.07</FocalLength>
+      <FNumber>1.75</FNumber>
+      <TotalFocusDistance>3.78</TotalFocusDistance>
+      <HorizontalViewAngle>76.9</HorizontalViewAngle>
+      <VerticalViewAngle>57.6</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
   <CameraModuleConfig>
     <CameraId>1</CameraId>
-    <SensorName>whyred_s5k2l7_ofilm_cn_i</SensorName>
-    <ActuatorName>whyred_s5k2l7_ofilm_cn_i_ak7374</ActuatorName>
-    <EepromName>whyred_s5k2l7_ofilm_cn_i</EepromName>
+    <SensorName>wayne_imx486_sunny_iii</SensorName>
+    <ActuatorName>wayne_imx486_sunny_i_dw9763</ActuatorName> 
+    <EepromName>wayne_imx486_sunny_iii</EepromName>
     <FlashName>pmic</FlashName>
-    <ChromatixName>whyred_s5k2l7_ofilm_cn_i_chromatix</ChromatixName>
+    <ChromatixName_china>wayne_imx486_sunny_cn_iii_chromatix</ChromatixName_china>
+    <ChromatixName>wayne_imx486_sunny_india_iii_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>BACK</Position>
     <MountAngle>90</MountAngle>
     <CSIInfo>
-      <CSIDCore>0</CSIDCore>
+      <CSIDCore>1</CSIDCore>
       <LaneMask>0x1F</LaneMask>
       <LaneAssign>0x4320</LaneAssign>
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>3.94</FocalLength>
-      <FNumber>1.9</FNumber>
-      <TotalFocusDistance>2.91</TotalFocusDistance>
-      <HorizontalViewAngle>70.4</HorizontalViewAngle>
-      <VerticalViewAngle>55.7</VerticalViewAngle>
+      <FocalLength>4.07</FocalLength>
+      <FNumber>1.75</FNumber>
+      <TotalFocusDistance>3.78</TotalFocusDistance>
+      <HorizontalViewAngle>76.9</HorizontalViewAngle>
+      <VerticalViewAngle>57.6</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
   <CameraModuleConfig>
     <CameraId>1</CameraId>
-    <SensorName>whyred_s5k2l7_qtech_cn_ii</SensorName>
-    <ActuatorName>whyred_s5k2l7_qtech_cn_ii_ak7374</ActuatorName>
-    <EepromName>whyred_s5k2l7_qtech_cn_ii</EepromName>
+    <SensorName>wayne_imx486_ofilm_ii</SensorName>
+    <ActuatorName>wayne_imx486_ofilm_ii_dw9763</ActuatorName> 
+    <EepromName>wayne_imx486_ofilm_ii</EepromName>
     <FlashName>pmic</FlashName>
-    <ChromatixName>whyred_s5k2l7_qtech_cn_ii_chromatix</ChromatixName>
+    <ChromatixName_china>wayne_imx486_ofilm_cn_ii_chromatix</ChromatixName_china>
+    <ChromatixName>wayne_imx486_ofilm_india_ii_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>BACK</Position>
     <MountAngle>90</MountAngle>
     <CSIInfo>
-      <CSIDCore>0</CSIDCore>
+      <CSIDCore>1</CSIDCore>
       <LaneMask>0x1F</LaneMask>
       <LaneAssign>0x4320</LaneAssign>
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>3.94</FocalLength>
-      <FNumber>1.9</FNumber>
-      <TotalFocusDistance>2.91</TotalFocusDistance>
-      <HorizontalViewAngle>70.4</HorizontalViewAngle>
-      <VerticalViewAngle>55.7</VerticalViewAngle>
+      <FocalLength>4.07</FocalLength>
+      <FNumber>1.75</FNumber>
+      <TotalFocusDistance>4.0</TotalFocusDistance>
+      <HorizontalViewAngle>76.9</HorizontalViewAngle>
+      <VerticalViewAngle>57.6</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
-   <CameraModuleConfig>
+  <CameraModuleConfig>
     <CameraId>2</CameraId>
-    <SensorName>whyred_imx376_ofilm_global_i</SensorName> 
-    <EepromName>whyred_imx376_ofilm_global_i</EepromName>
-    <ChromatixName>whyred_imx376_ofilm_global_i_chromatix</ChromatixName>
+    <SensorName>wayne_imx376_sunny_front_i</SensorName>
+    <EepromName>wayne_imx376_sunny_front_i</EepromName>
     <FlashName>pmic</FlashName>
+    <ChromatixName_china>wayne_imx376_sunny_cn_front_i_chromatix</ChromatixName_china>
+    <ChromatixName>wayne_imx376_sunny_india_front_i_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>FRONT</Position>
+    <MountAngle>270</MountAngle>
+    <CSIInfo>
+      <CSIDCore>2</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>3.86</FocalLength>
+      <FNumber>2.2</FNumber>
+      <TotalFocusDistance>3.5</TotalFocusDistance>
+      <HorizontalViewAngle>66.1</HorizontalViewAngle>
+      <VerticalViewAngle>52.1</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+  <CameraModuleConfig>
+    <CameraId>2</CameraId>
+    <SensorName>wayne_imx376_ofilm_front_ii</SensorName>
+    <EepromName>wayne_imx376_ofilm_front_ii</EepromName>
+    <FlashName>pmic</FlashName>
+    <ChromatixName_china>wayne_imx376_ofilm_cn_front_ii_chromatix</ChromatixName_china>
+    <ChromatixName>wayne_imx376_ofilm_india_front_ii_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>FRONT</Position>
     <MountAngle>270</MountAngle>
@@ -258,77 +295,5 @@ LensInfo : Information of the lens present in the module.
       <VerticalViewAngle>52.1</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
-  </CameraModuleConfig>
-  <CameraModuleConfig>
-    <CameraId>2</CameraId>
-    <SensorName>whyred_imx376_sunny_global_ii</SensorName> 
-    <EepromName>whyred_imx376_sunny_global_ii</EepromName>
-    <ChromatixName>whyred_imx376_sunny_global_ii_chromatix</ChromatixName>
-    <FlashName>pmic</FlashName>
-    <ModesSupported>1</ModesSupported>
-    <Position>FRONT</Position>
-    <MountAngle>270</MountAngle>
-    <CSIInfo>
-      <CSIDCore>2</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>3.82</FocalLength>
-      <FNumber>2.2</FNumber>
-      <TotalFocusDistance>3.5</TotalFocusDistance>
-      <HorizontalViewAngle>66.1</HorizontalViewAngle>
-      <VerticalViewAngle>52.1</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
-    </LensInfo>
-  </CameraModuleConfig>
-  <CameraModuleConfig>
-    <CameraId>2</CameraId>
-    <SensorName>whyred_ov13855_sunny_cn_i</SensorName>
-    <ChromatixName>whyred_ov13855_sunny_cn_i_chromatix</ChromatixName>
-    <EepromName>whyred_ov13855_sunny_cn_i</EepromName>
-    <FlashName>pmic</FlashName>
-    <ModesSupported>1</ModesSupported>
-    <Position>FRONT</Position>
-    <MountAngle>270</MountAngle>
-    <CSIInfo>
-      <CSIDCore>2</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>3.519</FocalLength>
-      <FNumber>2.0</FNumber>
-      <TotalFocusDistance>3.5</TotalFocusDistance>
-      <HorizontalViewAngle>65.7</HorizontalViewAngle>
-      <VerticalViewAngle>51.7</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
-    </LensInfo>
-  </CameraModuleConfig>
-  <CameraModuleConfig>
-    <CameraId>2</CameraId>
-    <SensorName>whyred_s5k3l8_ofilm_cn_ii</SensorName>
-    <ChromatixName>whyred_s5k3l8_ofilm_cn_ii_chromatix</ChromatixName>
-    <EepromName>whyred_s5k3l8_ofilm_cn_ii</EepromName>
-    <FlashName>pmic</FlashName>
-    <ModesSupported>1</ModesSupported>
-    <Position>FRONT</Position>
-    <MountAngle>270</MountAngle>
-    <CSIInfo>
-      <CSIDCore>2</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>3.519</FocalLength>
-      <FNumber>2.0</FNumber>
-      <TotalFocusDistance>3.5</TotalFocusDistance>
-      <HorizontalViewAngle>65.7</HorizontalViewAngle>
-      <VerticalViewAngle>51.7</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
-    </LensInfo>
-  </CameraModuleConfig>
+  </CameraModuleConfig> 
 </CameraConfigurationRoot>
