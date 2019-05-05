@@ -1495,6 +1495,8 @@ PRODUCT_PACKAGES += \
     datastatusnotification \
     embms \
     CNEService \
+    HotwordEnrollmentOKGoogleWCD9340 \
+    HotwordEnrollmentXGoogleWCD9340 \
     WfdService \
     dpmserviceapp \
     ims \
