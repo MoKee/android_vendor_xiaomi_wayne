@@ -189,8 +189,8 @@ LensInfo : Information of the lens present in the module.
       <FocalLength>4.07</FocalLength>
       <FNumber>1.75</FNumber>
       <TotalFocusDistance>3.78</TotalFocusDistance>
-      <HorizontalViewAngle>76.9</HorizontalViewAngle>
-      <VerticalViewAngle>57.6</VerticalViewAngle>
+      <HorizontalViewAngle>60.4</HorizontalViewAngle>
+      <VerticalViewAngle>48.7</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
@@ -215,8 +215,8 @@ LensInfo : Information of the lens present in the module.
       <FocalLength>4.07</FocalLength>
       <FNumber>1.75</FNumber>
       <TotalFocusDistance>3.78</TotalFocusDistance>
-      <HorizontalViewAngle>76.9</HorizontalViewAngle>
-      <VerticalViewAngle>57.6</VerticalViewAngle>
+      <HorizontalViewAngle>60.4</HorizontalViewAngle>
+      <VerticalViewAngle>48.7</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
@@ -241,8 +241,8 @@ LensInfo : Information of the lens present in the module.
       <FocalLength>4.07</FocalLength>
       <FNumber>1.75</FNumber>
       <TotalFocusDistance>4.0</TotalFocusDistance>
-      <HorizontalViewAngle>76.9</HorizontalViewAngle>
-      <VerticalViewAngle>57.6</VerticalViewAngle>
+      <HorizontalViewAngle>60.4</HorizontalViewAngle>
+      <VerticalViewAngle>48.7</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
